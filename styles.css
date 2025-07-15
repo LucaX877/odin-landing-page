@@ -7,6 +7,35 @@
     font-family: "Roboto";
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+/* for debugging */
 body > div {
     border: 1px solid blue;
 }
