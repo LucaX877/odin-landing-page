@@ -162,7 +162,11 @@ a,.hero-secondary {
     padding: 0px 32px;
 }
 
-/* for debugging */
-body > div {
-    border: 1px solid blue;
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
 }
