@@ -114,6 +114,26 @@ a,.hero-secondary {
     color: #616A76;
 }
 
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
+}
+
+.align-right {
+    align-self: flex-end;
+    padding: 8px 100px;
+}
+
 /* for debugging */
 body > div {
     border: 1px solid blue;
